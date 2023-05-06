@@ -1,0 +1,26 @@
+.pngIcons{
+    width: 120px;
+    /* background-color: antiquewhite; */
+}
+
+.destinations{
+    text-align: center;
+    border-radius: 10px;
+    padding-top: 15px;
+    padding-bottom: 1px;
+    margin: 15px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+.iconName{
+    padding: 7px;
+    font-size: 15px;
+    font-weight: 500;
+    margin-top: 5px;
+}
+
+.cardSliders{
+    width: 1200px;
+    margin: auto;
+    margin-top: 80px;
+}

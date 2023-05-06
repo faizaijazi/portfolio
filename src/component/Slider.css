@@ -1,0 +1,46 @@
+.top_image{
+    width: 10rem;
+    height: 10rem;
+}
+
+.cardSlider{
+    width: 1200px;
+    margin: auto;
+}
+
+img{
+    width: 200px;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
+
+.carName{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1px;
+    font-weight: 600;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+    width: 200px;
+    height: 50px;
+    font-size: medium;
+}
+
+.browser{
+    margin-left: 45px;
+    margin-bottom: -20px;
+    font-weight: 500;
+}
+
+.spllied{
+    color: black;
+}
+
+
+  
+  
+  
+  
+  

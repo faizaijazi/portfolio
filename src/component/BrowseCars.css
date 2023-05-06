@@ -1,0 +1,75 @@
+.main{
+    display: flex;
+    justify-content: center;
+}
+
+.image{
+    width: 400px;
+    object-fit: contain;
+}
+
+.sideContent{
+    padding-left: 80px;
+}
+
+
+
+.carbtn{
+    margin-top: 20px;
+    background-color: #20b2aa;
+    padding: 15px 20px;
+    font-weight: 600;
+    color: rgb(255, 255, 255);
+    border: none;
+}
+
+.carbtn:hover{
+    background-color: #57e1d9;
+}
+
+.heading{
+    line-height: 35px;
+}
+
+.blue{
+    color: #20b2aa;
+}
+
+.carwithcontant{
+    padding-top: 50px;
+    width: 1200px;
+    margin: auto;
+}
+
+@media (max-width: 1200px){
+    .main{
+        display: flex;
+        /* justify-content: center; */
+        align-items: center;
+    }
+
+    .sideContent{
+        /* align-items: center; */
+    }
+
+    .image{
+        width: 400px;
+        object-fit: contain;
+        /* padding-left: 50px; */
+    }
+
+    .carwithcontant{
+        padding-top: 50px;
+        width: 98%;
+        margin: auto;
+    }
+}
+
+@media (max-width: 990px){
+    .main{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+}
